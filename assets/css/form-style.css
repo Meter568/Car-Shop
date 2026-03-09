@@ -1,3 +1,5 @@
+@import './reset.css';
+
 body {
     display: flex;
     justify-content: center;
@@ -43,11 +45,7 @@ form {
 
 .fieldset-element-1 {
     display: flex;
-    align-items: self-start;
-}
-
-.fieldset-element-1 > label {
-    width: 130px;
+    align-items: center;
 }
 
 .fieldset-element-2 {
@@ -55,9 +53,6 @@ form {
     align-items: self-start;
 }
 
-.fieldset-element-2 > label {
-    width: 70px;
-}
 
 .fieldset-element-2 > textarea {
     resize: none;
@@ -68,9 +63,6 @@ form {
     align-items: center;
 }
 
-.fieldset-element-3 > label {
-    width: 53px;
-}
 
 .fieldset-element-4 {
     display: flex;
