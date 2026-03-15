@@ -1,4 +1,5 @@
 @import './reset.css';
+@import "./fonts.css";
 
 a {
     color: inherit;
@@ -20,8 +21,8 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
-    padding: 10px 20px;
+header nav ul li a {
+    padding: 15px 20px;
     border: 1px solid black;
     border-radius: 0.5rem;
 }
